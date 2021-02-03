@@ -42,7 +42,7 @@ for i in range(len(y_test)):
         prediction = learner.predict([X_test[i]])
         if prediction == 1:
             counts[j] = counts[j] + 1
-    final_predictions = np.argmax(counts)
+    final_predictions = 2*np.sum(counts)>num_divisions
     predictions.append(final_predictions)
 
 accuracy = accuracy_score(y_test, predictions)

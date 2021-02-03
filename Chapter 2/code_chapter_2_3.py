@@ -13,4 +13,4 @@ for x in range(0, num_divisions):
     list_of_data_divisions.append(sample)
 
 print("Samples", list_of_data_divisions)
-# Output: Samples [[3, 3, 7, 2], [4, 7, 2, 1], [2, 1, 1, 4]]
+# Output: Samples [[8, 1, 6, 7, 4], [4, 6, 5, 3, 8]]

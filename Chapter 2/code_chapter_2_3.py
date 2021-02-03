@@ -6,10 +6,10 @@ np.random.seed(123)
 # data to be sampled
 data = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 # Number of divisions needed
-num_divisions = 3
+num_divisions = 2
 list_of_data_divisions = []
 for x in range(0, num_divisions):
-    sample = resample(data, replace=True, n_samples=4)
+    sample = resample(data, replace=False, n_samples=5)
     list_of_data_divisions.append(sample)
 
 print("Samples", list_of_data_divisions)

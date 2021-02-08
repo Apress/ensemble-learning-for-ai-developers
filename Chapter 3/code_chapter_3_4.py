@@ -130,7 +130,7 @@ for i in range(n_epochs):
 
 
 # load models in order
-members = load_all_models(5, 10)
+members = load_all_models(10, 15)
 print("Loaded %d models" % len(members))
 # reverse loaded models so we build the ensemble with the last models first
 members = list(reversed(members))
